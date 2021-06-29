@@ -1,11 +1,32 @@
-# Getting Started with Create React App
+# Getting Started with Your Personal Portfolio Using React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## How to use
+This is a simple firebase project. You need to create a firebase account and allow Firebase Auth, Firebase Realtime Database, Firebase Storage. After allowing your all buckets then copy your confirmation 'code inside the firebase setting' and replace it into '/src/firebase.js' file. example:
+
+```
+const firebaseConfig = {
+    apiKey: "",
+    authDomain: "",
+    databaseURL: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: "",
+    measurementId: ""
+};
+```
+That's it your configuration completed.
+
+## How to run Scripts
 
 In the project directory, you can run:
-
+First run:
+### `npm install`
+If this run successfully then
+### `npm start`
+or
 ### `yarn start`
 
 Runs the app in the development mode.\
@@ -29,42 +50,28 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+## Project Features
+* User login & registration using firebase
+* Role Management `user and admin`
+* Dynamic navigation (after and before login)
+* Store data dynamicaly on firebase database and storage
+* Awesome css3 animation using `AOS`
+* Image lightbox
+* Form PopUp
+* Good locking dashboard
+* Testimonial slider
+* Mail send using `Emailjs`
+* Product filter
+* Used Text editor
+* Used Bootstrap and FontAwesome icon
+* Used FontAwesome icon picker
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# Feel free to registion in my portfolio and check all the features.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### If there any qoery feel free to contact us: 
+foridpathan45@gmail.com
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# Donation
+If this project help you reduce time to develop, you can give me a cup of coffee :)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=DY4DT7AUX9S5L&source=url)
