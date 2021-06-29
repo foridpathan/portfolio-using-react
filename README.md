@@ -54,7 +54,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 * User login & registration using firebase
 * Role Management `user and admin`
 * Dynamic navigation (after and before login)
-* Store data dynamicaly on firebase database and storage
+* Store data dynamically on firebase database and storage
 * Awesome css3 animation using `AOS`
 * Image lightbox
 * Form PopUp
@@ -66,9 +66,9 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 * Used Bootstrap and FontAwesome icon
 * Used FontAwesome icon picker
 
-# Feel free to registion in my portfolio and check all the features.
+# Feel free to registration in my portfolio and check all the features.
 
-### If there any qoery feel free to contact us: 
+### If there any query feel free to contact us: 
 foridpathan45@gmail.com
 
 # Donation
