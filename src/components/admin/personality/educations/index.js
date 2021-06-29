@@ -287,6 +287,7 @@ class Education extends Component {
                         variant="outline-secondary"
                         onClick={() => this.addNewEdu()} >Add Education</Button>
                     <EduModal
+                        {...this.props}
                         show={this.state.mShow}
                         data={this.state.data}
                         onHide={() => this.setState({ mShow: false })}

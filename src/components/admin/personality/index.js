@@ -5,7 +5,7 @@ import Experience from './experiences';
 import Skills from './skills';
 import Training from './trining';
 
-const Personality = () => {
+const Personality = (props) => {
     return (
         <section className="personality">
             <div className="container-fluid">
@@ -17,16 +17,17 @@ const Personality = () => {
                             id="personality-tab"
                         >
                             <Tab eventKey="education" title="Education" >
-                                <Education/>
+                                <Education
+                                {...props}/>
                             </Tab>
                             <Tab eventKey="training" title="Training" >
-                                <Training/>
+                                <Training {...props}/>
                             </Tab>
                             <Tab eventKey="experience" title="Experience" >
-                                <Experience/>
+                                <Experience {...props}/>
                             </Tab>
                             <Tab eventKey="skills" title="Skills" >
-                                <Skills/>
+                                <Skills {...props}/>
                             </Tab>
                         </Tabs>
                     </Card.Body>
