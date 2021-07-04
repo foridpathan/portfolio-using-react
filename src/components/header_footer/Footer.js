@@ -6,10 +6,10 @@ class Footer extends Component {
             <footer id="footer">
                 <div className="container">
                     <div className="copyright">
-                        &copy; Copyright <strong><span>Farid Pathan</span></strong>
+                        &copy; Copyright <strong><span>iPortfolio</span></strong>
                     </div>
                     <div className="credits">
-                        Designed by <a href="https://plenarysoft.com/">Farid Pathan</a>
+                        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
                     </div>
                 </div>
             </footer>
