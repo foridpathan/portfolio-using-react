@@ -9,7 +9,7 @@ class Footer extends Component {
                         &copy; Copyright <strong><span>iPortfolio</span></strong>
                     </div>
                     <div className="credits">
-                        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> | Develop by <a href="https://forid-pathan.web.app">Faridul Islam</a>
                     </div>
                 </div>
             </footer>
